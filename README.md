@@ -4,3 +4,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 2. Regex engine
 3. Credit_calculator
 4. Simple Bot
+5. Coffee Machine
