@@ -7,3 +7,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 5. Coffee Machine
 6. TicTacToe - i didn't use the best aproach, but still a "playable" game 
 7. Zoo keeper
+8. RockPaperScissors
