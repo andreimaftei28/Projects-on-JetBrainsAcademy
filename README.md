@@ -10,3 +10,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 8. RockPaperScissors
 9. Simple-banking_system
 10. Numeric matrix processor 
+11. Smart calculator
