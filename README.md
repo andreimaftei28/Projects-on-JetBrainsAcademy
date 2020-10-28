@@ -11,3 +11,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 9. Simple-banking_system
 10. Numeric matrix processor 
 11. Smart calculator
+12. Text-Based Browser
