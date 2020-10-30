@@ -12,3 +12,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 10. Numeric matrix processor 
 11. Smart calculator
 12. Text-Based Browser
+13. Multilingual Online Translator
