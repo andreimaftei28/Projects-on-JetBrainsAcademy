@@ -46,12 +46,12 @@ class Translator():
         print(f"{full_lang} Translations:")
         print(words[0])
         print(f"\n{full_lang} Examples:")
-        print(phrase[0] + ":\n" + phrase[1])
+        print(phrase[0] + ":\n" + phrase[1]+"\n")
         with open(f"{self.word}.txt", "a+", encoding="utf-8") as file:
             print(f"{full_lang} Translations:", file=file, flush=True, end="\n")
             print(words[0], file=file, flush=True, end="\n")
             print(f"\n{full_lang} Examples:", file=file, flush=True, end="\n")
-            print(phrase[0] + ":\n" + phrase[1], file=file, flush=True, end= "\n")
+            print(phrase[0] + ":\n" + phrase[1]+"\n", file=file, flush=True, end= "\n")
             #file.seek(0)
             #print(file.read())
 
@@ -65,23 +65,24 @@ class Translator():
         return  self.first_choice, self.second_choice, self.word
 
 
-    def multiple_trans(self):
-        """method is used to detemine single language translation or multiple"""
-
+        def multiple_trans(self):
         self.translate()
         if self.second_choice != "all":
-            if self.second_choice not in self.list_lang:
-                print(f"Sorry, the program doesn't support {self.second_choice}")
-            else:
-                print(self.status)
+            try:
                 self.create_req()
+            except AttributeError:
+                print(f"Sorry we don't yet translate from {self.first_choice} to {self.second_choice}")
         else:
             languages = [x for x in self.list_lang if x != self.first_choice]
             self.second_choice = languages[0]
             print(self.status)
             for i in range(len(languages)):
-                self.second_choice = languages[i]
-                self.create_req()
+                try:
+                    self.second_choice = languages[i]
+                    self.create_req()
+                except AttributeError:
+                    print(f"Sorry we don't yet translate from {self.first_choice} to {self.second_choice}")
+
 
 trans = Translator()
 if __name__ == "__main__":
