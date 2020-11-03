@@ -13,3 +13,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 11. Smart calculator
 12. Text-Based Browser
 13. Multilingual Online Translator
+14. Tic-Tac-Toe with AI - tryed to use alpha beta pruning(still learning :D)
