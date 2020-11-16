@@ -16,3 +16,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 14. Tic-Tac-Toe with AI - tryed to use alpha beta pruning(still learning :D)
 15. To-Do-List
 16. Password Hacker (task)
+17. HyperNews Portal
