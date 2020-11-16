@@ -1,0 +1,14 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>You’re storing your news data in a JSON file. Yet editing this file every time you want to add a news article is inconvenient. You need to add a web interface for creating news articles.</p>
+
+<h2 style="text-align: center;">Objectives</h2>
+
+<p>Create a new page to add news using a form. This form should send data via <code class="java">POST</code> to <em>/news/create/</em> where a new record will be created with two parameters, <code class="java">title</code> and <code class="java">text</code>. When the request is completed, the response should redirect you back to the main page.</p>
+
+<p>If you start the application on your computer with the command <code class="java">python manage.py runserver</code>, the page for creating news should be available at the <em>localhost:8000/news/create/ </em>address.</p>
+
+<p>The page should also contain a link to the main page with <code class="java">target="_blank" target="_blank" href="/news/"</code>.</p>
+
+<p><div class="alert alert-primary"> The <code class="java">link</code> in your storage should be a random number, but remember that it must be unique for every news article. Use the current time to populate the <code class="java">created</code> field, and do not forget to convert it to a string before saving it to JSON.<br>
+</div></p>

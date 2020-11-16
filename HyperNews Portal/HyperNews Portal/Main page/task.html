@@ -1,0 +1,29 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>Currently, the news articles can be accessed via direct links with identifiers that are known only to you. Let's collect the news articles on one page and display them all to our users. </p>
+
+<h2 style="text-align: center;">Objectives</h2>
+
+<p>At the top of your main page there<em> </em>should be a page header:</p>
+
+<pre><code class="language-html">&lt;h2&gt;HyperNews&lt;/h2&gt;</code></pre>
+
+<p>Below, you need to list your news articles and display the title, publication date, and a link to the article page for each.<br>
+Group the articles by date into unordered lists:<br>
+ </p>
+
+<pre><code class="language-html">&lt;h4&gt;2020-02-02&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a target="_blank" href="/news/9234732/"&gt;A star is born&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a target="_blank" href="/news/2389742/"&gt;The rise of Jupiter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<p>The most recent news should be at the top.</p>
+
+<p>If you start the application on your computer with the command <code class="language-html">python manage.py runserver</code>, the main page will be available at the <em>localhost:8000/news/ </em>address.</p>
+
+<p>Add a link below to the page where users can add their own news:</p>
+
+<pre><code class="language-html">target="_blank" target="_blank" href="/news/create/"</code></pre>
