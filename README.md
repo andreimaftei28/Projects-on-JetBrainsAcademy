@@ -17,3 +17,4 @@ This repo contains projects i've managed to complete so far on hyperskill.org ,P
 15. To-Do-List
 16. Password Hacker (task)
 17. HyperNews Portal
+18. Hypercar Service Center
