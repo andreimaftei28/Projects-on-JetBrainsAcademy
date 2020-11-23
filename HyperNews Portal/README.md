@@ -1,4 +1,4 @@
-#About
+# About
 
 Sitting down with a coffee and reading a newspaper is pretty much a thing of the past. Most people today read the news on their laptops or phones, 
 so online news websites are very popular. 
