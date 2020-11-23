@@ -1,0 +1,16 @@
+
+body {
+  display: grid;
+  align-items: center;
+}
+h2 {
+  color: red;
+
+}
+label {
+  font-size: 25px;
+  color: blue;
+}
+input {
+    color: green;
+}

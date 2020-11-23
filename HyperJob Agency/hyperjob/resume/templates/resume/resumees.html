@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumes</title>
+</head>
+<body>
+    {% for cv in resumes %}
+    <div>{{ cv.author }}: {{ cv.description }}</div>
+    {% endfor %}
+    <button><a href="/">Back To Main Page</a></button>
+</body>
+</html>

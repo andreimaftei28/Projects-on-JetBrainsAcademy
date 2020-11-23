@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operator Page</title>
+</head>
+<body>
+    {% for key, value in menu.items %}
+    <div>{{ key }} queue: {{ value }}</div>
+    {% endfor %}
+
+    <form method="post">{% csrf_token %}
+        <button type="submit">Process next</button>
+    </form>
+    <a href="/menu/">Menu</a>
+</body>
+</html>
