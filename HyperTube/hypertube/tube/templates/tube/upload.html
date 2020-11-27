@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Page</title>
+</head>
+<body>
+<a href="/tube/" target="_blank"><h2>Hypertube</h2></a>
+    {% if user.is_authenticated %}
+        <p>Hello , {{ user }}</p>
+    <a href="/login/">Login</a>
+    <form action="/tube/upload/" method="post" enctype="multipart/form-data">{% csrf_token %}
+        <table>{{ form.as_table }}</table>
+        <button type="submit">Upload</button>
+    </form>
+    {% else %}
+    <p>Hello, guest!!!</p>
+    {% endif %}
+</body>
+</html>

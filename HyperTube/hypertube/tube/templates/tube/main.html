@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body>
+    <h2>Hypertube</h2>
+    <button><a href="/login/" target="_blank">Log In</a></button>
+    <button><a href="/signup/" target="_blank">Register</a></button>
+    <br /> <br />
+    <form action="/tube/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="search">
+    </form>
+
+    <p>{{ tag }}</p>
+    <p>{{ videos|length }} videos </p>
+    <div>
+        {% for video in videos %}
+        <a href="/tube/watch/{{ video.id }}/">{{video.title }}</a>
+        <br>
+        {% endfor %}
+    </div>
+    <br>
+    <a href="/tube/upload/" target="_blank">Upload video</a>
+</body>
+</html>
