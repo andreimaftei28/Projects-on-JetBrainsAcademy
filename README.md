@@ -15,10 +15,11 @@
 13. Multilingual Online Translator
 14. Tic-Tac-Toe with AI - tryed to use alpha beta pruning(still learning :D)
 15. To-Do-List
-16. Password Hacker (task)
+16. Password Hacker
 17. HyperNews Portal
 18. Hypercar Service Center
 19. HyperJob Agency
 20. HyperTube (beta)
 21. EasyRiderBusCompany (beta)
 22. PageRank (beta)
+23. Text Generator (beta)
