@@ -1,4 +1,4 @@
-# projects-on-JetBrainAcademy
+# Projects-on-JetBrainAcademy
 ## This repo contains projects i've managed to complete so far on hyperskill.org ,Python Developer track.
 1. Hangman
 2. Regex engine
@@ -23,3 +23,4 @@
 21. EasyRiderBusCompany (beta)
 22. PageRank (beta)
 23. Text Generator (beta)
+24. Flashcards (beta)
