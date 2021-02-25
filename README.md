@@ -24,3 +24,4 @@
 22. PageRank (beta)
 23. Text Generator (beta)
 24. Flashcards (beta)
+25. Currency Converter
