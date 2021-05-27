@@ -14,3 +14,6 @@
 
 ## [Python Developer](https://hyperskill.org/tracks/2)
 ## [Natural Language Processing](https://hyperskill.org/tracks/10)
+
+##### Note : The project could be also completed with the help of ReadabilityCalculator module in just a few lines of code, 
+#####        but for learning purposes I preferred the 'hard' way !. 
