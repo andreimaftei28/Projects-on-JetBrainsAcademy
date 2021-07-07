@@ -60,3 +60,4 @@
 #### 30. Bill Splitter
 #### 31. Readability Score
 #### 32. Duplicate file handler
+#### 33. Web Scraper
