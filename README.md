@@ -1,7 +1,7 @@
 # Projects-on-JetBrainsAcademy
 
 
-## This repo contains projects I've managed to complete so far on JetBrains Academy 
+## This repo contains projects I have completed so far on JetBrains Academy 
 
 # Python Developer track.
 
@@ -61,3 +61,4 @@
 #### 31. Readability Score
 #### 32. Duplicate file handler
 #### 33. Web Scraper
+#### 34. University Admission Procedure
