@@ -62,3 +62,5 @@
 #### 32. Duplicate file handler
 #### 33. Web Scraper
 #### 34. University Admission Procedure
+#### 35. Arithmetic Exam Application
+#### 36. Honest Calculator
