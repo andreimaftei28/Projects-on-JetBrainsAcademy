@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    width: 50%;
+}
+
+table caption {
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
